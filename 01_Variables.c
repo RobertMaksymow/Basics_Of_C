@@ -10,13 +10,23 @@ int main() {
  
  int studentRank = 1;
  float studentFeeTotal = 100.56;
- char studentGradeLetter = 'A';
+ char studentGradeLetter = 'A'; // Char's must have always single quote
+
+  int numOfBooks = 4;
+  char favLetter = 'M';
+  char favDigit = '6';
+  double costOfCandyBar = 1.99;
+
+
 
  printf("Student's Rank in class: %dst\n", studentRank); // %d is a placeholder for an integer value
  printf("Student's Total Fees: $%3.2f\n", studentFeeTotal); // %3.2f is a placeholder for a floating-point value with 3 digits before the decimal and 2 digits after the decimal
  printf("Student's Grade: %c\n", studentGradeLetter); // %c is a placeholder for a character value
 
-
+  printf("Number of books: %d\n", numOfBooks);
+  printf("Your Favorite Letter is: %c\n", favLetter);
+  printf("Your Favorite Digit is: %c\n", favDigit);
+  printf("You expect to pay $%.2f for a candy bar.\n", costOfCandyBar);
 
   printf("Hello World!\n");
   printf("2 Cups: All Purpose Flour\n"); //\n is a newline character that moves the cursor to the next line
