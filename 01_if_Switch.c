@@ -25,7 +25,7 @@ int main() {
       break;
     case 7:
       printf("Squirtle\n");
-    //   break;
+      break;
       // The break statement is used to exit the switch statement after a case has been executed. Without it, the program would continue executing the next cases until it hits a break or the end of the switch statement.
     case 8:
       printf("Wartortle\n");
