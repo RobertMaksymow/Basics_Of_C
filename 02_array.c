@@ -13,6 +13,6 @@ int main() {
     int arr[] = {3, 5, 7, 9}; // Array creation
     arr[2] = 4; // Modify the third element
     int x = arr[2]; // Assign the third element to the lone variable x
-    printf("%i", x); // Print x
+    printf("This %i\n", x); // Print x
 
 }
